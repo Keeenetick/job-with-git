@@ -1,0 +1,18 @@
+git config --global user.name "Ваше имя"
+git config --global user.email info@dka-develop.ru
+
+Находимся в корне проекта и пишем : git init
+добавим все файлы git add .
+git commit -m "Init blog"
+git remote show
+git remote add origin и имя репозитория SSH гита(Не создавть коммит в самом гитхабе!!)
+git push origin master
+Вводим логин и пароль гитхаба
+
+
+После изменений
+git add .
+git push origin3 master
+git commit -m "Creat admin dashboard"
+git push origin3 master
+
